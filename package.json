@@ -1,0 +1,21 @@
+{
+  "name": "little-weather-wizard",
+  "private": true,
+  "version": "1.0.0",
+  "description": "The Little Weather Wizard — a gentle 3D weather toy for young children (Three.js + Vite, single index.html).",
+  "type": "module",
+  "scripts": {
+    "dev": "vite --host",
+    "build": "vite build",
+    "preview": "vite preview --host",
+    "verify": "node scripts/verify.mjs"
+  },
+  "dependencies": {
+    "three": "^0.186.1"
+  },
+  "devDependencies": {
+    "playwright": "^1.56.1",
+    "vite": "^8.3.2",
+    "vite-plugin-singlefile": "^2.3.3"
+  }
+}
